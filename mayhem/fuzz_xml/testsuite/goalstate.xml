@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Extensions version="1.0.0.0" goalStateIncarnation="1"><StatusUploadBlob statusBlobType="PageBlob">https://example.blob.core.windows.net/vhds/status?sv=2018&amp;sig=x</StatusUploadBlob>
+<PluginSettings>
+  <Plugin name="Microsoft.Azure.Extensions.CustomScript" version="2.1.10">
+    <RuntimeSettings seqNo="3">{"runtimeSettings":[]}</RuntimeSettings>
+  </Plugin>
+  <Plugin name="Other" version="1.0"><RuntimeSettings seqNo="12">x</RuntimeSettings></Plugin>
+</PluginSettings>
+</Extensions>

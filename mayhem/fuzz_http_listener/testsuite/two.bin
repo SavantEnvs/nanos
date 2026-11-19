@@ -1,0 +1,6 @@
+GET /api/v1/thing?x=1 HTTP/1.1
+Host: x
+Connection: keep-alive
+
+GET /status HTTP/1.0
+

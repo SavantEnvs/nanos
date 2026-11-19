@@ -1,0 +1,11 @@
+project: savantenvs/nanos
+target: fuzz_http_listener
+
+cmds:
+  - cmd: /mayhem/fuzz_http_listener
+    libfuzzer: true
+    timeout: 5
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_http_listener/testsuite

@@ -1,0 +1,1 @@
+(children:(a:(contents:(host:/tmp/hw.txt)) l:(children:(s:(symlink:/a) loop1:(symlink:loop2)))) program:/a)

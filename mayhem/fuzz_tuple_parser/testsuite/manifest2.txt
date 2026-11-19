@@ -1,0 +1,1 @@
+(children:(kernel:(contents:(host:output/stage3/bin/kernel.img))) arguments:[/bin/hello poppy] environment:(USER:bobby PWD:/) boot:(children:(kernel:(contents:(host:k))))  klibs:bootfs debugsyscalls:t)
